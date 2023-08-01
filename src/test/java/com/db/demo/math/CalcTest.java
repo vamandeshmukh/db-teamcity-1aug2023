@@ -40,4 +40,14 @@ public class CalcTest {
 	public void testAddNums6() {
 		assertNotEquals(5, calc.addNums(2, 2));
 	}
+
+	@Test
+	public void testAddNums7() {
+		assertNotEquals(3, calc.addNums(2, 2));
+	}
+
+	@Test
+	public void testAddNums8() {
+		assertNotEquals(2, calc.addNums(2, 2));
+	}
 }
