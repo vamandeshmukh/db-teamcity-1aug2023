@@ -30,4 +30,9 @@ public class CalcTest {
 		assertEquals(2, calc.addNums(1, 1));
 	}
 
+	@Test
+	public void testAddNums5() {
+		assertEquals(5, calc.addNums(2, 3));
+	}
+
 }
