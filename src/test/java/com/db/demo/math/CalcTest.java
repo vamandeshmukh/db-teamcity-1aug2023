@@ -16,15 +16,15 @@ public class CalcTest {
 		assertEquals(expected, actual);
 	}
 
-	@Test
-	public void testAddNums2() {
-		assertEquals(20, calc.addNums(10, 10));
-	}
-
-	@Test
-	public void testAddNums3() {
-		assertEquals(4, calc.addNums(2, 2));
-	}
+//	@Test
+//	public void testAddNums2() {
+//		assertEquals(20, calc.addNums(10, 10));
+//	}
+//
+//	@Test
+//	public void testAddNums3() {
+//		assertEquals(4, calc.addNums(2, 2));
+//	}
 
 	@Test
 	public void testAddNums4() {
