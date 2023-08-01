@@ -13,7 +13,6 @@ public class CalcTest {
 		Integer expected = 10;
 		Integer actual = calc.addNums(5, 5);
 		assertEquals(expected, actual);
-
 	}
 
 	@Test
@@ -25,4 +24,10 @@ public class CalcTest {
 	public void testAddNums3() {
 		assertEquals(4, calc.addNums(2, 2));
 	}
+
+	@Test
+	public void testAddNums4() {
+		assertEquals(2, calc.addNums(2, 2));
+	}
+
 }
