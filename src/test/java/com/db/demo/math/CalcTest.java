@@ -27,7 +27,7 @@ public class CalcTest {
 
 	@Test
 	public void testAddNums4() {
-		assertEquals(2, calc.addNums(2, 2));
+		assertEquals(2, calc.addNums(1, 1));
 	}
 
 }
